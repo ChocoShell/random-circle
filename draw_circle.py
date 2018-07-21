@@ -18,7 +18,7 @@ def draw_random_circle(image, radius=None, in_border=True, outline=None, fill=No
     center_y = randint(0, size_y)
     center = (center_x, center_y)
 
-    draw_circle(image, center, radius, outline=outline, fill=fill, verbose=False)
+    draw_circle(image, center, radius, in_border=in_border, outline=outline, fill=fill, verbose=False)
 
 def draw_circle(image, center, radius, in_border=True, verbose=True, outline=None, fill=None):
     """

@@ -21,8 +21,8 @@ size = (1920, 1080)
 newImage = Image.new(mode, size, color=blue)
 
 draw_random_circle(newImage, radius=200, in_border=True, fill=red, outline=0)
-draw_random_circle(newImage, radius=200, in_border=True, fill=red, outline=0)
-draw_random_circle(newImage, radius=200, in_border=True, fill=red, outline=0)
-draw_random_circle(newImage, radius=200, in_border=True, fill=red, outline=0)
+draw_random_circle(newImage, radius=200, in_border=True, fill=red, outline=None)
+draw_random_circle(newImage, radius=200, in_border=False, fill=green, outline=0)
+draw_random_circle(newImage, radius=200, in_border=False, fill=green, outline=None)
 
 newImage.save('out.png', format='PNG')
